@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{06C7896C-FB4D-4B45-8219-71A0386765FE}">
+	<Platforms>
+		<Platform Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" OpenMP="OpenMPParallelCode" WarnInterfaces="true" Traceback="true" BoundsCheck="true" Interfaces="true"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole" StackReserveSize="100000000"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="inputfile">
+			<File RelativePath=".\in\MOP_CG_Vincent.INC"/>
+		</Filter>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+			<Filter Name="Calmode">
+				<File RelativePath=".\Dynamic_Calculation.f90"/>
+				<File RelativePath=".\Initial_Calcualtion.f90"/>
+			</Filter>
+			<Filter Name="Element">
+				<File RelativePath=".\Areachange.f90"/>
+				<File RelativePath=".\Bridge.f90"/>
+				<File RelativePath=".\Canal.f90"/>
+				<File RelativePath=".\ControlGate.f90"/>
+				<File RelativePath=".\Invertedsiphon.f90"/>
+				<File RelativePath=".\Pumpstation.f90"/>
+				<File RelativePath=".\SideOutFlow.f90"/>
+			</Filter>
+			<Filter Name="INOUT">
+				<File RelativePath=".\Inputfile.f90"/>
+				<File RelativePath=".\Outputfile.f90"/>
+			</Filter>
+			<Filter Name="Main">
+				<File RelativePath=".\Global_variable.f90"/>
+				<File RelativePath=".\hyper.f90"/>
+				<File RelativePath=".\MOPSO.f90"/>
+				<File RelativePath=".\MOPSOtools.f90"/>
+				<File RelativePath=".\mutation.f90"/>
+				<File RelativePath=".\ProblemBank.f90"/>
+				<File RelativePath=".\qsort.f90"/>
+				<File RelativePath=".\rouletteWheel.f90"/>
+				<File RelativePath=".\shrink.f90"/>
+			</Filter>
+			<Filter Name="NewCode">
+				<File RelativePath=".\Cal_After_Optimize.f90"/>
+				<File RelativePath=".\Get_data.f90"/>
+				<File RelativePath=".\rebuild_byTime.f90"/>
+				<File RelativePath=".\Test_f.f90"/>
+			</Filter>
+			<Filter Name="Tools">
+				<File RelativePath=".\Abr.f90"/>
+				<File RelativePath=".\Boundary_Auto_Update.f90"/>
+				<File RelativePath=".\Boundary_Meshing.f90"/>
+				<File RelativePath=".\Com-element_Auto_Update.f90"/>
+				<File RelativePath=".\Cut_Com_element.f90"/>
+				<File RelativePath=".\Dynamic_Result_Auto_Update.f90"/>
+				<File RelativePath=".\Initial_Result_Auto_Update.f90"/>
+				<File RelativePath=".\Model_Meshing.f90"/>
+				<File RelativePath=".\Spcial_tools.f90"/>
+				<File RelativePath=".\Tools.f90"/>
+			</Filter>
+		</Filter>
+	</Files>
+	<Globals/>
+</VisualStudioProject>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "MOPSO_Vincent_Parall", "MOPSO_Vincent_Parall.vfproj", "{06C7896C-FB4D-4B45-8219-71A0386765FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06C7896C-FB4D-4B45-8219-71A0386765FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{06C7896C-FB4D-4B45-8219-71A0386765FE}.Debug|Win32.Build.0 = Debug|Win32
+		{06C7896C-FB4D-4B45-8219-71A0386765FE}.Release|Win32.ActiveCfg = Release|Win32
+		{06C7896C-FB4D-4B45-8219-71A0386765FE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
